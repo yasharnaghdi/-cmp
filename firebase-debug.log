@@ -1,0 +1,317 @@
+[debug] [2026-09-24T13:24:30.464Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:24:30.468Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:24:30.468Z] CLI Version:   15.30.2
+[debug] [2026-09-24T13:24:30.468Z] Platform:      darwin
+[debug] [2026-09-24T13:24:30.468Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:24:30.468Z] Detected Agent: unknown
+[debug] [2026-09-24T13:24:30.468Z] Time:          Thu Sep 24 2026 16:54:30 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:24:30.468Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-24T13:24:30.484Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] ✔  Wrote dataconnect/dataconnect.yaml 
+[info] ✔  Wrote dataconnect/seed_data.gql 
+[info] ✔  Wrote dataconnect/schema/schema.gql 
+[info] ✔  Wrote dataconnect/example/connector.yaml 
+[info] ✔  Wrote dataconnect/example/queries.gql 
+[info] ✔  Wrote dataconnect/example/mutations.gql 
+[info] ✔  Wrote dataconnect/example/connector.yaml 
+[info] i  dataconnect: Installing the generated SDKs ... 
+[info] i  dataconnect: downloading dataconnect-emulator-3.4.20... {"metadata":{"emulator":{"name":"dataconnect"},"message":"downloading dataconnect-emulator-3.4.20..."}}
+[debug] [2026-09-24T13:24:31.180Z] >>> [apiv2][query] GET https://storage.googleapis.com/firemat-preview-drop/emulator/dataconnect-emulator-macos-arm64-v3.4.20 
+[debug] [2026-09-24T13:24:41.114Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): ConnectTimeoutError: Connect Timeout Error (attempted address: firebase-public.firebaseio.com:443, timeout: 10000ms)
+[warn] ⚠  Unable to fetch the CLI MOTD and remote config. This is not a fatal error, but may indicate an issue with your network connection. 
+[debug] [2026-09-24T13:24:41.115Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2026-09-24T13:24:41.611Z] *** [apiv2] error from fetch(https://storage.googleapis.com/firemat-preview-drop/emulator/dataconnect-emulator-macos-arm64-v3.4.20, {"headers":{},"method":"GET"}): ConnectTimeoutError: Connect Timeout Error (attempted address: storage.googleapis.com:443, timeout: 10000ms)
+[error] ⬢  dataconnect: Failed to generate SQL Connect SDKs
+Failed to make request to https://storage.googleapis.com/firemat-preview-drop/emulator/dataconnect-emulator-macos-arm64-v3.4.20 
+[info] ✔  dataconnect: Installed generated SDKs for . (web) 
+[info] 
+=== Agent Skills Setup
+[info] If you are using an AI coding agent, Firebase Agent Skills make it an expert at Firebase.
+[debug] [2026-09-24T13:26:55.105Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:26:54.567Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:26:54.619Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:26:54.620Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:26:54.620Z] Platform:      darwin
+[debug] [2026-09-24T13:26:54.620Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:26:54.620Z] Detected Agent: unknown
+[debug] [2026-09-24T13:26:54.620Z] Time:          Thu Sep 24 2026 16:56:54 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:26:54.620Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-24T13:26:54.696Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[debug] [2026-09-24T13:26:55.122Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:26:55.123Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:26:55.124Z] Platform:      darwin
+[debug] [2026-09-24T13:26:55.124Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:26:55.124Z] Detected Agent: unknown
+[debug] [2026-09-24T13:26:55.124Z] Time:          Thu Sep 24 2026 16:56:55 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:26:55.125Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-24T13:26:55.158Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[debug] [2026-09-24T13:26:57.087Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:26:57.101Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:26:57.101Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:26:57.101Z] Platform:      darwin
+[debug] [2026-09-24T13:26:57.101Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:26:57.102Z] Detected Agent: unknown
+[debug] [2026-09-24T13:26:57.102Z] Time:          Thu Sep 24 2026 16:56:57 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:26:57.102Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-24T13:26:57.172Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[debug] [2026-09-24T13:27:00.349Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-09-24T13:27:00.349Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-09-24T13:27:00.964Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-09-24T13:27:00.356Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-09-24T13:27:00.356Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-09-24T13:26:59.027Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:26:59.087Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:26:59.088Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:26:59.088Z] Platform:      darwin
+[debug] [2026-09-24T13:26:59.088Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:26:59.088Z] Detected Agent: unknown
+[debug] [2026-09-24T13:26:59.088Z] Time:          Thu Sep 24 2026 16:56:59 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:26:59.088Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-09-24T13:26:59.151Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[debug] [2026-09-24T13:27:00.965Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-09-24T13:27:04.644Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-09-24T13:27:04.645Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-09-24T13:27:06.264Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:27:06.299Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:27:06.299Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:27:06.299Z] Platform:      darwin
+[debug] [2026-09-24T13:27:06.300Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:27:06.300Z] Detected Agent: unknown
+[debug] [2026-09-24T13:27:06.300Z] Time:          Thu Sep 24 2026 16:57:06 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:27:06.300Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[debug] [2026-09-24T13:27:08.297Z] ----------------------------------------------------------------------
+[debug] [2026-09-24T13:27:08.305Z] Command:       /opt/homebrew/Cellar/node/26.0.0/bin/node /Users/naghdiya/.npm/_npx/ba4f1959e38407b5/node_modules/.bin/firebase init dataconnect --project demo-no-project
+[debug] [2026-09-24T13:27:08.305Z] CLI Version:   15.31.0
+[debug] [2026-09-24T13:27:08.306Z] Platform:      darwin
+[debug] [2026-09-24T13:27:08.306Z] Node Version:  v26.0.0
+[debug] [2026-09-24T13:27:08.306Z] Detected Agent: unknown
+[debug] [2026-09-24T13:27:08.306Z] Time:          Thu Sep 24 2026 16:57:08 GMT+0330 (Iran Standard Time)
+[debug] [2026-09-24T13:27:08.306Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/naghdiya/code/nanocmp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[info] Skipping Firebase project setup because a demo project is provided
+[info] 
+=== Dataconnect Setup
+[info] ✔  dataconnect: Detected existing apps . (web) 
+[info] i  dataconnect/dataconnect.yaml is unchanged 
+[info] i  dataconnect/seed_data.gql is unchanged 
+[info] i  dataconnect/schema/schema.gql is unchanged 
+[debug] [2026-09-24T13:52:38.674Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.695Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.688Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.686Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.673Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.700Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+[debug] [2026-09-24T13:52:38.737Z] Error: setRawMode EBADF
+    at ReadStream.setRawMode (node:tty:81:24)
+    at [_setRawMode] [as _setRawMode] (node:internal/readline/interface:418:18)
+    at Interface.close (node:internal/readline/interface:552:24)
+    at ReadStream.ontermend (node:internal/readline/interface:280:10)
+    at ReadStream.emit (node:events:521:24)
+    at endReadableNT (node:internal/streams/readable:1734:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
